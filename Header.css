@@ -1,0 +1,74 @@
+.header-container{
+    display: flex;
+    flex-direction: row;
+    background-color: transparent;
+    width: 100vw;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    position: fixed;
+    z-index: 10;
+
+}
+.navbar a{
+    font-family: 'Baskervville',serif;
+    text-decoration: none;
+    margin-left: 25px;
+    margin-right: 30px;
+    color: #FFFFFF;
+    transition: color 0.5s;
+    font-size: 14px;
+    font-weight: lighter;
+}
+.navbar{
+width: 50%;
+}
+.navbar a:hover{
+    color:#DBE45C;
+}
+.logo{
+    width:50%;
+    margin-left: 45px;
+}
+.logo a{
+    font-family:'Baskervville',serif;
+    text-decoration: none;
+    color:#FFFFFF;
+    font-weight: lighter;
+
+
+}
+@media screen and (max-width: 768px) {
+    .header-container {
+        flex-direction: row; /* Navbar ditumpuk */
+        align-items:baseline;
+        justify-content: space-between; /* Pusatkan elemen */
+        padding: 10px 0; /* Tambahkan padding atas dan bawah */
+        position: fixed;
+    }
+
+    .logo {
+        width: 100%; /* Lebar penuh */
+        text-align: center; /* Logo dipusatkan */
+        margin: 0;
+         /* Hapus margin */
+    }
+
+    .navbar {
+        width: 100%; /* Lebar penuh */
+        display: flex;
+        flex-direction: row; /* Link ditumpuk */
+        align-items: center; /* Pusatkan link */
+        margin-top: 10px; /* Tambahkan jarak ke atas */
+    }
+
+    .navbar a {
+        margin: 10px; /* Kurangi jarak antar link */
+        font-size: 12px; /* Sesuaikan ukuran font */
+    }
+
+    .navbar a:hover {
+        color: #DBE45C; /* Efek hover tetap sama */
+    }
+}

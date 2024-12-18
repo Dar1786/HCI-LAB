@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>SaffCoZ | ContactUs Page</title>
+    <link rel="stylesheet" href="Header2.css">
+    <link rel="stylesheet" href="ContactUs.css">
+</head>
+<body>
+    <div class="header-container">
+        <div class="logo">
+            <a href="LandingPage.html"><h1>SaffCoZ</h1></a>
+        </div>
+        <div class="navbar">
+            <a href="LandingPage.html">Home</a>
+            <a href="/ProductPage.html">Product</a>
+            <a href="/AboutUs.html">About Us</a>
+            <a href="/StoreLocationPage.html">Store Location</a>
+            <a href="">Contact Us</a>
+        </div>
+
+        
+    </div>
+    <div class="body1">
+        <div class="left">
+            <img src="/assets/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvdjk5MC0wNWEta3MwMXF5bGQuanBn.jpg" alt="image1">
+        </div>
+        <div class="right">
+            <form id="myForm" onsubmit="form_submit(event)">
+                <div class="righttext">
+                    <h1>SaffCoZ</h1>
+                    <div class="form-input">
+                        <label for="name">Full Name</label>
+                        <input type="text" name="name" id="name" placeholder="Your Full Name">
+                    </div>
+                    <div class="form-input">
+                        <label for="email">Email Address</label>
+                        <input type="email" name="email" id="email" placeholder="eg : SaffCoZ@gmail.com">
+                    </div>
+                    <div class="form-input">
+                        <label for="phone">Phone Number</label>
+                        <input type="text" name="phone" id="phone" placeholder="Your Phone Number">
+                    </div>
+                    <div class="gender">
+                        <input type="radio" name="gender" id="male">
+                        <label for="male">Male</label>
+                        <input type="radio" name="gender" id="female">
+                        <label for="female">Female</label>
+                    </div>
+                    <div class="checklistcontainer">
+                        <div class="checker"><input type="checkbox" class="check" name="box" value="News"><p>Receive latest news</p></div>
+                        <div class="checker"><input type="checkbox" class="check" name="box" value="Exclusive"><p>Exclusive Offers</p></div>
+                        <div class="checker"><input type="checkbox" class="check" name="box" value="NewProduct"><p>New Product Releases</p></div>
+                    </div>
+                    <div class="submitbtn">
+                        <button type="submit" class="sub">Submit</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+
+
+
+    
+</body>
+<script src="ContactUs.js"></script>
+</html>

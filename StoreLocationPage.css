@@ -1,0 +1,162 @@
+.first{
+    padding-top: 100px;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family:'Baskervville',serif ;
+}
+.first h1{
+    font-family:'Baskervville SC',serif ;
+    font-size: 128px;
+    color: #004c37;
+    font-weight: 100;
+}
+.second{
+    display: flex;
+    flex-direction: row;
+    width: 90vw;
+    padding-left: 68px;
+    margin-bottom: 38px;
+    margin-top: 34px;
+
+}
+.second img{
+    width:677px;
+    height: 451px;
+    border-radius: 25px;
+
+}
+.text-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: baseline;
+    width: 420px;
+    margin-left: 77px;
+
+}
+.text-container h1{
+    font-family: 'Baskervville SC',serif;
+    font-size: 48px;
+    font-weight: 100;
+    color: #004c37;
+}
+.desc-1{
+    font-family: 'Baskervville SC',serif;
+    font-size: 24px;
+    font-weight: 100;
+    width:400px;
+    color: #004c37;
+    margin-top: -30px;
+
+
+
+}
+.daerah-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 440px;
+    height: 200px;
+    align-items: baseline;
+    margin-right: -10px;
+    
+
+}
+.daerah-spesifik{
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    margin-right: 30px;
+    margin-top: -30px;
+    height: fit-content;
+
+
+}
+.district{
+font-family:'Baskervville SC',serif;
+font-size: 24px;
+width: fit-content;
+}
+.spesifik{
+font-family:'Baskervville SC',serif;
+font-size: 16px;
+width: fit-content;
+margin-top: -10px;
+}
+@media screen and (max-width: 768px) {
+
+    /* .first */
+    .first {
+        padding-top: 50px; /* Kurangi padding atas */
+        width: 100%; /* Lebar penuh */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .first h1 {
+        font-size: 64px; /* Perkecil ukuran font */
+        text-align: center; /* Rata tengah teks */
+    }
+
+    /* .second */
+    .second {
+        flex-direction: column; /* Susun vertikal */
+        padding-left: 0; /* Hapus padding kiri */
+        width: 100%; /* Lebar penuh */
+        margin: 0 auto; /* Tengah secara horizontal */
+        align-items: center;
+    }
+
+    .second img {
+        width: 90%; /* Gambar responsif, 90% dari layar */
+        height: auto; /* Tinggi menyesuaikan */
+        margin-bottom: 20px; /* Beri jarak bawah */
+        border-radius: 15px; /* Perkecil radius sudut */
+    }
+
+    /* .text-container */
+    .text-container {
+        width: 90%; /* Lebar teks responsif */
+        margin-left: 0; /* Hapus margin kiri */
+        text-align: center; /* Teks rata tengah */
+        align-items: center; /* Pusatkan item */
+    }
+
+    .text-container h1 {
+        font-size: 36px; /* Perkecil ukuran font */
+    }
+
+    .desc-1 {
+        font-size: 18px; /* Perkecil ukuran font */
+        width: 100%; /* Lebar penuh */
+        margin-top: -10px; /* Atur margin atas */
+    }
+
+    /* .daerah-container */
+    .daerah-container {
+        width: 100%; /* Lebar penuh */
+        height: auto; /* Tinggi menyesuaikan */
+        flex-direction: column; /* Susun vertikal */
+        align-items: center; /* Pusatkan item */
+        margin-right: 0; /* Hapus margin kanan */
+    }
+
+    .daerah-spesifik {
+        margin-top: 10px; /* Atur jarak antar item */
+        margin-right: 0; /* Hapus margin kanan */
+    }
+
+    .district {
+        font-size: 20px; /* Perkecil font */
+        text-align: center; /* Rata tengah teks */
+    }
+
+    .spesifik {
+        font-size: 14px; /* Perkecil font */
+        text-align: center; /* Rata tengah teks */
+        margin-top: -5px; /* Atur jarak atas */
+    }
+}

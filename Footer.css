@@ -1,0 +1,144 @@
+.footer-container{
+    display: flex;
+    flex-direction:column;
+    width: 100vw;
+    overflow: hidden;
+    height: 60vh;
+    margin-top: 0px;
+    background-color: #BEE1B2;
+
+}
+.upper{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.left3-container{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-left: 10px;
+}
+.left3-container h4{
+    color: white;
+}
+.left3-container h1{
+    color: white;
+}
+.left3-container p{
+    color: white;
+}
+.right3-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: baseline;
+    width: 30%;
+    margin-left: 10%;
+
+}
+.left-right{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-left:15%;
+    
+}
+.left-right h1{
+    font-size: 20px;
+
+}
+.right-right{
+    width: 50%;
+}
+.right-right h1{
+    font-size: 20px;
+}
+.right3-container h1{
+    color: white;
+}
+.footer-paragraph{
+    width:500px;
+    text-align: justify;
+
+}
+.right-right{
+    margin-left: 15%;
+}
+.right-right h3{
+    color: white;
+
+}
+.lower{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom:10px;
+    border-top:3px solid white;
+    height: 200px;
+
+}
+.lower h1{
+    font-size: 200px;
+    color:white;
+} 
+@media screen and (max-width: 768px) {
+    .footer-container {
+        height: auto; /* Biarkan tinggi menyesuaikan konten */
+        padding: 20px 10px; /* Tambahkan padding agar konten lebih nyaman */
+    }
+
+    .upper {
+        flex-direction: column; /* Tumpuk elemen secara vertikal */
+        align-items: center; /* Pusatkan elemen */
+    }
+
+    .left3-container, .right3-container {
+        width: 100%; /* Lebar penuh */
+        margin: 10px 0; /* Tambahkan jarak antar elemen */
+        text-align: center; /* Pusatkan teks */
+    }
+
+    .left3-container h1,
+    .left3-container h4,
+    .left3-container p {
+        margin: 5px 0; /* Tambahkan jarak kecil antar teks */
+        font-size: 16px; /* Sesuaikan ukuran font */
+    }
+
+    .right3-container {
+        flex-direction: column; /* Tumpuk konten di kanan */
+        align-items: center; /* Pusatkan konten */
+        margin-left: 0; /* Hilangkan margin kiri */
+    }
+
+    .left-right, .right-right {
+        margin-left: 0; /* Hapus margin kiri */
+        text-align: center; /* Pusatkan teks */
+        width: 100%; /* Lebar penuh */
+    }
+
+    .right3-container h1 {
+        font-size: 18px; /* Sesuaikan ukuran font */
+        margin-bottom: 10px; /* Tambahkan jarak bawah */
+    }
+
+    .footer-paragraph {
+        width: 90%; /* Lebar maksimum untuk teks paragraf */
+        text-align: justify;
+        margin: 0 auto; /* Pusatkan paragraf */
+    }
+
+    .lower {
+        flex-direction: column; /* Tumpuk elemen secara vertikal */
+        border-top: 2px solid white; /* Lebih tipis untuk layar kecil */
+        height: auto; /* Biarkan tinggi menyesuaikan */
+        padding: 10px 0; /* Tambahkan padding */
+    }
+
+    .lower h1 {
+        font-size: 50px; /* Ukuran font lebih kecil agar pas */
+        text-align: center; /* Pusatkan teks */
+    }
+}

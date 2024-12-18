@@ -1,0 +1,534 @@
+body, html{
+background: linear-gradient(to bottom,#BEE1B2,#C7D9C0);
+margin: 0;
+padding: 0;
+}
+.First-container{
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+
+}
+
+.right{
+    display: flex;
+    flex-direction: column;
+    background-color:#004c37;
+    width: 50%;
+    
+    
+
+}
+
+.right h4{
+    margin-top:70px;
+    color: #ffffff;
+}
+.image-container {
+    padding: 0;
+    margin: 0;
+    width: 50%; 
+    height: 130vh;
+}
+
+.image{
+    width: 50vw;
+    height: 100%;
+    z-index: 1;
+    padding: 0;
+}
+.first-line{
+    display: flex;
+    flex-direction: row;
+    margin-left:55px;
+    margin-top: 100px;
+
+
+}
+.first-line p{
+    font-family:'Baskervville SC',serif;
+    font-weight: 400;
+    margin-right: 7px;
+    color: white;
+    font-size: 20px;
+    padding-bottom: 40px;
+
+}
+.first-line .represent{
+    color:#DBE45C;
+}
+.second-line{
+    display: flex;
+    flex-direction:column;
+    margin-left:55px;
+    flex-wrap: wrap;
+    padding:0;
+}
+.second-line p{
+    margin-top: -50px;
+    font-family: 'Baskervvile SC',serif;
+    font-size: 66px;
+    color: #ffffff;
+    padding-top: 0;
+    width: fit-content;
+    height: fit-content;
+    padding-top: -10px;
+}
+.third-line{
+    margin-top:-50px;
+    margin-left:55px;
+}
+.third-line p{
+    font-family: 'Baskervvile SC',serif;
+    color: white;
+}
+.butt-1{
+    background-color: #DBE45C;
+    width:260px;
+    height:60px;
+    margin-left: 55px;
+    margin-top:10px;
+    border: none;
+    border-radius: 10px;
+    color:black ;
+    font-size: 18px;
+    transition: all ease-in 0.3s;
+}
+
+.butt-1:hover{
+color: orange;
+}
+.second-container{
+    padding:0;
+    margin:0;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 250px;
+
+}
+.text-container{
+    margin-left: 45px;
+    margin-top:100px
+}
+.text-container h1{
+    font-family: 'Baskervvile SC',serif;
+    font-size:64px;
+    color: #004c37;
+    font-weight: lighter;
+}
+.image2-container{
+    display: flex;
+    flex-direction: row;
+    height:400px;
+    width: 99%;
+    margin-top:10px;
+    margin-left:5px;
+    margin-right:-50px;
+    align-items: center;
+    justify-content: space-around;
+    padding-right:-100px;
+    
+
+
+
+}
+.image2-container img{
+    height:420px;
+    width: 360px;
+    border-radius: 25px;
+    box-shadow: 0 4px 4px rgba(0, 76, 55, 0.25);
+    transition: all ease-out 0.3s;
+
+}
+.border{
+    overflow: hidden;
+    border-radius:25px ;
+}
+.border img:hover{
+    transform: scale(1.8);
+}
+.third-container{
+    display: flex;
+    flex-direction: row;
+
+
+}
+.image3-container img{
+    width:600px;
+    height:515px;
+    border-radius: 25px;
+    margin-left: 30px;
+}
+.right2-container{
+    margin-left: 50px;
+
+}
+
+.right2-container h1{
+    margin-top:170px;
+    color:#004c37;
+    font-size: 64px;
+    font-family: 'Backsville SC',serif;
+    font-weight: lighter;
+    width: 500px;
+}
+
+.right2-container p{
+    margin-top:-30px;
+    color: white;
+    margin-left:10px;
+    margin-bottom: 40px;
+    font-size: 20px;
+    text-align: justify;
+    width:460px;
+}
+
+.butt-2{
+    background-color: #DBE45C;
+    width:260px;
+    height:60px;
+    margin-top:10px;
+    border: none;
+    border-radius: 10px;
+    color:black ;
+    font-size: 18px;
+    transition: all ease-in 0.3s;
+}
+.butt-2:hover{
+    color: orange;
+}
+.fourth-container{
+    display: flex;
+    flex-direction: row;
+    margin-top:175px;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100vw;
+
+}
+
+.left-container{
+    display:flex;
+    flex-direction: column;
+    width:50%;
+    height:90vh;
+    margin-left: 10px;
+    padding-right: 150px;
+    padding-left: 20px;
+}
+
+.left-container h1{
+    margin-top: 100px;
+    font-family:'Backsville SC',serif;
+    font-size: 64px;
+    color:#004c37;
+    font-weight: lighter;
+    width: 500px;
+}
+
+.left-container p{
+    color:white;
+    font-size: 20px;
+    margin-top: -10px;
+    text-align: justify;
+}
+.image4-container{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+.text-desc{
+top: 50%;
+bottom: 50%;
+transform: translateX(50%,50%);
+position: absolute;
+color: white;
+width: 200px;
+opacity: 0;
+transition: 0.5s all ease-in;
+}
+
+.image4-container img:hover{
+    opacity: 0.5;
+
+}
+.image4-container:hover .text-desc{
+    opacity: 1;
+
+}
+.image4-container img{
+width:567px;
+height:565px;
+transition: 0.5s all ease-in;
+}
+
+.fifth-container{
+    display: flex;
+    flex-direction: row;
+    margin-top: 200px;
+    width: 100vw;
+    height:100vh;
+}
+.left2-container{
+display: flex;
+flex-direction: column;
+width: 50%;
+background-color: #004c37;
+height: 100vh;
+padding-left: 2px;
+}
+
+
+.left2-container h1{
+    margin-top: 200px;
+    color: white;
+    font-family:'Backsville SC',serif;
+    font-weight: lighter;
+    font-size: 50px;
+    margin-left:20px;
+
+}
+.korea{
+    color: #DBE45C;
+    margin-left: 20px;
+    margin-top: -10px;
+}
+.tulisan-bawah{
+    color: white;
+    width:400px;
+    text-align: justify;
+    margin-left: 20px;
+    margin-top: -5px;
+    font-size: 20px;
+}
+.butt-3{
+    background-color: #DBE45C;
+    width:260px;
+    height:60px;
+    margin-top:10px;
+    border: none;
+    border-radius: 10px;
+    color:black ;
+    font-size: 18px;
+    margin-left: 20px;
+    transition: all ease-in 0.3s;
+
+}
+.butt-3:hover{
+    color: orange;
+}
+.image5-container{
+    display: flex;
+    width: 50%;
+}
+.image5-container img{
+    width: 100%;
+    height: 100vh;
+}
+.desc{
+    position: relative;
+    width: 600px;
+    height: 515px;
+}
+.desc img{
+    transition: all  ease-in 0.5s;
+}
+.desc-full{
+    position: absolute;
+    top:50%;
+    bottom: 50%;
+    
+    width:50%;
+    translate: 50% 50%;
+    opacity: 0;
+    transition: all ease-in 0.5s;
+    color: white;
+
+}
+.desc img:hover{
+    opacity: 0.5;
+
+}
+.desc:hover .desc-full{
+    opacity: 1;
+}
+@media screen and (max-width: 768px) {
+    body, html {
+        background: linear-gradient(to bottom, #BEE1B2, #C7D9C0);
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        overflow-x: hidden;
+    }
+
+    .First-container {
+        flex-direction: column; /* Mengubah arah flex menjadi kolom */
+        width: 100vw;
+        border: 1px solid;
+    }
+
+    .right {
+        width: 100vw; /* Full width */
+    }
+
+    .image-container {
+        width: 100vw; /* Full width */
+        height: auto;
+    }
+
+    .image {
+        width: 100vw; /* Gambar menyesuaikan lebar kontainer */
+        height: auto;
+        margin: 0;
+        padding: 0;
+    }
+
+    .first-line, .second-line, .third-line {
+        margin-left: 0px; /* Margin kiri lebih kecil */
+        margin-top: 20px; /* Memberi jarak antar elemen */
+    }
+
+    .butt-1 {
+        width: 100vw; 
+        margin-left: 0;
+    }
+
+    .butt-1:hover {
+        color: orange; /* Pertahankan efek hover */
+    }
+
+    .second-container {
+        margin-bottom: 50px; /* Kurangi margin bawah */
+    }
+
+    .text-container {
+        margin-left: 20px;
+        margin-top: 50px; /* Lebih kecil pada layar kecil */
+    }
+
+    .image2-container {
+        flex-direction: column; /* Gambar bertumpuk */
+        height: auto;
+        align-items: center; /* Pusatkan gambar */
+        margin: 0;
+    }
+
+    .image2-container img {
+        width: 50vw;
+        max-width: 90%;
+        margin: 10px 0; 
+        border-radius: 25px;
+        box-shadow: 0 4px 4px rgba(0, 76, 55, 0.25);
+        transition: all ease-out 0.3s;
+    }
+
+    .image2-container img:hover {
+        transform: scale(1.05); 
+    }
+
+    .third-container {
+        flex-direction: column; 
+    }
+
+    .image3-container img {
+        width: 100vw;
+        height: auto;
+        margin-left: 0;
+        border-radius: 25px;
+        transition: all ease-in 0.5s;
+    }
+
+    .image3-container img:hover {
+        opacity: 0.8; /* Pertahankan efek hover */
+    }
+
+    .right2-container {
+        margin-left: 0;
+        margin-top: 20px; /* Tambahkan jarak atas */
+    }
+
+    .fourth-container {
+        flex-direction: column; /* Layout bertumpuk */
+        align-items: flex-start;
+        margin-top: 50px;
+    }
+
+    .left-container {
+        width: 100vw; /* Full width */
+        padding: 10px; /* Padding kecil */
+    }
+
+    .image4-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+    }
+
+    .image4-container img {
+        width: 100vw; /* Gambar responsif */
+        height: auto;
+        transition: 0.5s all ease-in;
+    }
+
+    .image4-container img:hover {
+        opacity: 0.5; /* Efek hover tetap */
+    }
+
+    .image4-container:hover .text-desc {
+        opacity: 1; /* Tampilkan teks saat hover */
+    }
+
+    .text-desc {
+        top: 50%;
+        bottom: 50%;
+        transform: translateX(50%, 50%);
+        position: absolute;
+        color: white;
+        width: 200px;
+        opacity: 0;
+        transition: 0.5s all ease-in;
+    }
+
+    .fifth-container {
+        flex-direction: column; /* Layout bertumpuk */
+        height: auto;
+        margin-top: 50px; /* Tambah margin atas */
+    }
+
+    .left2-container {
+        width: 100vw; /* Full width */
+        padding: 20px; /* Tambahkan padding */
+        height: auto; /* Tinggi otomatis */
+    }
+
+    .image5-container {
+        width: 100vw; /* Full width */
+        height: auto;
+    }
+
+    .image5-container img {
+        width: 100vw; /* Gambar responsif */
+        height: auto;
+        transition: all ease-in 0.5s;
+    }
+
+    .image5-container img:hover {
+        opacity: 0.5; /* Efek hover tetap */
+    }
+
+    .desc img {
+        transition: all ease-in 0.5s;
+    }
+
+    .desc img:hover {
+        opacity: 0.5; /* Pertahankan efek hover */
+    }
+
+    .desc:hover .desc-full {
+        opacity: 1; /* Tampilkan teks saat hover */
+    }
+}
+
