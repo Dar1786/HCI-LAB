@@ -166,10 +166,10 @@
     font-weight: lighter;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
     .product img, .product2 img {
-        width: 300px;
-        height: auto;
+        width: 400px;
+        height: 500px;
     }
 
     .text-wrapper {

@@ -100,9 +100,10 @@ padding-right: 30px;
     color: white;
     font-family: 'Baskervville SC',serif;
     text-align: justify;
-    width: 450px;
+    width: 600px;
     font-weight: 100;
     margin-left: 50px;
+    font-size: 24px;
 }
 .fourth{
     display:flex;
@@ -151,21 +152,6 @@ padding-right: 30px;
     font-weight: 100;
     color: #1D4339;
 }
-/* .image-container{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    width: 100vw;
-    padding-right: 15px;
-}
-.image-container img{
-    width: 393px;
-    height: 400px;
-    margin-left: 13px;
-    border-radius: 25px;
-    margin-bottom: 50px;
-} */
 .image-container {
     display: flex;
     flex-direction: row;
@@ -274,60 +260,65 @@ padding-right: 30px;
         display: flex;
         flex-direction: column;
         padding-top: 20px;
-        width: 100%;
-        height: auto; /* Allow auto height */
-        justify-content: center; /* Center the content */
+        width: 100vw;
+        height: auto; 
         align-items: center;
+        justify-content: center;
+
     }
 
     .i, .m, .g, .s {
-        width: 50%; /* Full width for images */
-        height: auto; /* Auto height */
-        margin-left: 0; /* Remove margin */
-        margin-bottom: 15px; /* Add space between images */
-        border-radius: 15px; /* Adjust border radius */
+        width: 80%; 
+        height: 500px;
+        margin-bottom: 20px;
+        border-radius: 15px; 
+    }
+    .s{
+        margin-left: 57px;
     }
 
-    /* .third */
+
     .third {
-        width: 100%; /* Full width */
+        width: 100vw; 
         display: flex;
-        flex-direction: column; /* Stack the items */
-        margin-left: 0; /* Remove left margin */
+        flex-direction: column; 
+        margin-left: 0;
     }
 
     .left-container {
-        width: 100%; /* Full width */
-        height: auto; /* Auto height */
+        width: 95%; 
+        height: auto;
+        border-radius: none;
+        padding: 0;
     }
 
-    .left-container img {
-        width: 100%; /* Make image responsive */
+    .left-container img{
+        width: 100%;
         height: auto;
-        border-top-left-radius: 15px; /* Adjust border radius */
-        border-bottom-left-radius: 15px;
+        margin: 0;
+        padding: 0;
+        border-radius: 20px;
+
     }
 
     .right-container {
-        width: 100%; /* Full width */
-        height: auto; /* Auto height */
+        width: 100vw;
+        height: auto; 
         background-color: #1D4339;
-        border-top-right-radius: 15px;
-        border-bottom-right-radius: 15px;
-        padding: 20px; /* Add padding */
+        padding: 20px;
         align-items: baseline;
     }
 
     .right-container h1 {
-        font-size: 30px; /* Adjust font size */
-        margin-top: 30px; /* Adjust top margin */
-        margin-left: 0; /* Remove left margin */
+        font-size: 30px; 
+        margin-top: 30px; 
+        margin-left: 0; 
     }
 
     .par1 {
-        width: 90%; /* Full width */
-        font-size: 12px; /* Adjust font size */
-        margin-left: 0; /* Remove left margin */
+        width: 90%;
+        font-size: 12px; 
+        margin-left: 0; 
     }
     .korea{
         margin: 0;
@@ -343,47 +334,46 @@ padding-right: 30px;
     }
 
     .title {
-        font-size: 40px; /* Adjust font size */
+        font-size: 40px; 
     }
 
-    /* .vision-container, .mission-container */
+   
     .vision-container,
     .mission-container {
-        width: 100%; /* Full width */
-        margin-bottom: 30px; /* Add bottom margin */
-    }
+        width: 100%; 
+        margin-bottom: 30px; 
 
     .content {
-        width: 90%; /* Reduce width */
-        font-size: 18px; /* Adjust font size */
+        width: 90%; 
+        font-size: 18px; 
         margin-top: 20px;
     }
 
     .fifth {
         display: flex;
-        flex-direction: column; /* Stack items */
+        flex-direction: column; 
         align-items: center;
-        width: 100%; /* Full width */
+        width: 100%; 
     }
 
     .fifth h1 {
-        font-size: 36px; /* Adjust font size */
+        font-size: 36px; 
     }
 
     .image-container {
         display: flex;
-        flex-direction: column; /* Stack images */
+        flex-direction: column; 
         align-items: center;
     }
 
     .image-container img {
-        width: 80%; /* Adjust image size */
-        height: auto; /* Make image responsive */
-        margin-bottom: 30px; /* Adjust margin */
+        width: 90%; 
+        height: 400px; 
+        margin-bottom: 30px; 
         border-radius: 15px; /* Adjust border radius */
     }
 
     .fifth h3 {
         font-size: 28px; /* Adjust font size */
     }
-}
+}}
